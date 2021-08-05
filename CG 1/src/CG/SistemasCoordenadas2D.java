@@ -19,7 +19,24 @@ class Cartesiana2D{
    
    public void setX(int x) {
    this.x = x;
-   
+   class Polar{
+
+    private int radio;
+    private float angulo;
+
+    public int getRadio() {
+        return radio;
+    }
+    public float getAngulo() {
+        return angulo;
+    }
+    public void setRadio(int radio) {
+        this.radio = radio;
+    }
+    public void setAngulo(float angulo) {
+        this.angulo = angulo;
+    }
+
    }
    
    public void setY(int y) {
